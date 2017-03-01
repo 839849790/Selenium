@@ -3,11 +3,10 @@
 <suite name="Suite" parallel="classes" thread-count="3">
   <test name="Test">
     <classes>
-      <class name="orangelife.ut.ChooseCommunityTest" />
+      <!-- <class name="orangelife.ut.ChooseCommunityTest" /> -->
       <!-- <class name="orangelife.ut.LoginTest" /> -->
-
-      <class name="orangelife.NewTest" />
-      <class name="orangelife.NewTest2" />
+      
+      <class name="orangelife.ut.homepage.TopLineTest" />
       
     </classes>
   </test> <!-- Test -->
