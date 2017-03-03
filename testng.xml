@@ -7,6 +7,7 @@
       <!-- <class name="orangelife.ut.LoginTest" /> -->
       
       <class name="orangelife.ut.homepage.TopLineTest" />
+      <class name="orangelife.ut.homepage.NewsTest" />
       
     </classes>
   </test> <!-- Test -->
