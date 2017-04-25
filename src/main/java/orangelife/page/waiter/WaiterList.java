@@ -12,8 +12,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import orangelife.dataProvider.PublicParam;
-import orangelife.page.ChooseCommunity;
-import orangelife.page.Login;
+import orangelife.page.person.ChooseCommunity;
+import orangelife.page.person.Login;
 import orangelife.util.SeleniumUtil;
 
 /**

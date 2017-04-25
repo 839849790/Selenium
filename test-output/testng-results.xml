@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="523" started-at="2017-04-25T06:16:52Z" finished-at="2017-04-25T06:16:53Z">
+    <groups>
+      <group name="init">
+        <method signature="NewTest.f()[pri:0, instance:orangelife.NewTest@6a2bcfcb]" name="f" class="orangelife.NewTest"/>
+        <method signature="NewTest.g()[pri:0, instance:orangelife.NewTest@6a2bcfcb]" name="g" class="orangelife.NewTest"/>
+      </group> <!-- init -->
+      <group name="proccess">
+        <method signature="NewTest.h()[pri:0, instance:orangelife.NewTest@6a2bcfcb]" name="h" class="orangelife.NewTest"/>
+        <method signature="NewTest.i()[pri:0, instance:orangelife.NewTest@6a2bcfcb]" name="i" class="orangelife.NewTest"/>
+      </group> <!-- proccess -->
+    </groups>
+    <test name="Test" duration-ms="523" started-at="2017-04-25T06:16:52Z" finished-at="2017-04-25T06:16:53Z">
+      <class name="orangelife.NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:orangelife.NewTest@6a2bcfcb]" name="f" duration-ms="196" started-at="2017-04-25T14:16:52Z" finished-at="2017-04-25T14:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="g()[pri:0, instance:orangelife.NewTest@6a2bcfcb]" name="g" duration-ms="22" started-at="2017-04-25T14:16:53Z" finished-at="2017-04-25T14:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+        <test-method status="PASS" signature="h()[pri:0, instance:orangelife.NewTest@6a2bcfcb]" name="h" duration-ms="7" depends-on-groups="init" started-at="2017-04-25T14:16:53Z" finished-at="2017-04-25T14:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- h -->
+        <test-method status="PASS" signature="i()[pri:0, instance:orangelife.NewTest@6a2bcfcb]" name="i" duration-ms="15" depends-on-groups="init" started-at="2017-04-25T14:16:53Z" finished-at="2017-04-25T14:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i -->
+      </class> <!-- orangelife.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

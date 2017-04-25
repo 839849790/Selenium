@@ -1,0 +1,271 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 07 15:50:44 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>457 seconds (457130 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase1()'><b>testCase1</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1550261631" onClick='toggleBox("Output-1550261631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1550261631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1550261631">
+设置按钮测试：未登录情况下，进入首页后点击“我的”，而后点击设置按钮，弹出登录提醒框，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase10()'><b>testCase10</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1846501247" onClick='toggleBox("Output-1846501247", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1846501247" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1846501247">
+个人信息测试：进入定位页面重新定位后，点击登录，输入登录数据，登录成功，跳转到首页，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase13()'><b>testCase13</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1205445235" onClick='toggleBox("Output-1205445235", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1205445235" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1205445235">
+个人信息测试：已登录验证:进入首页-我的-点击头像-修改，弹出修改提示框，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase14()'><b>testCase14</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1466785259" onClick='toggleBox("Output-1466785259", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1466785259" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1466785259">
+个人信息测试：已登录验证:进入首页-我的-点击头像-点击修改密码，跳转到重置密码页面，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase15()'><b>testCase15</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1908043086" onClick='toggleBox("Output-1908043086", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1908043086" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1908043086">
+我的小区测试：已登录验证:进入首页-我的-点击我的小区，跳转到我的小区页面，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase16()'><b>testCase16</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-783191662" onClick='toggleBox("Output-783191662", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-783191662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-783191662">
+我的收藏测试：已登录验证:进入首页-我的-点击我的收藏，跳转到我的收藏页面，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase17()'><b>testCase17</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1408974251" onClick='toggleBox("Output-1408974251", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1408974251" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1408974251">
+我的购物测试：已登录验证:进入首页-我的-点击我的购物，跳转到我的购物页面，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase18()'><b>testCase18</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-443934570" onClick='toggleBox("Output-443934570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-443934570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-443934570">
+我的惠民测试：已登录验证:进入首页-我的-点击我的惠民，跳转到我的惠民页面，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase19()'><b>testCase19</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-2083999882" onClick='toggleBox("Output-2083999882", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2083999882" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2083999882">
+消息中心测试：已登录验证:进入首页-我的-点击消息中心，跳转到消息中心页面，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase2()'><b>testCase2</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-680712932" onClick='toggleBox("Output-680712932", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-680712932" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-680712932">
+设置按钮测试：设置按钮测试：在已登录情况下，进入首页后点击“我的”，而后点击设置按钮，进入设置页面，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase3()'><b>testCase3</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1710265848" onClick='toggleBox("Output-1710265848", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1710265848" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1710265848">
+设置按钮测试：在已登录情况下进入设置页面，点击消息到达提醒按钮，可以开启/关闭消息到达，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase4()'><b>testCase4</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1523457748" onClick='toggleBox("Output-1523457748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1523457748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1523457748">
+设置按钮测试：在已登录情况下进入设置页面，点击”正文字号”按钮，弹出调整字号大小提示框，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase5()'><b>testCase5</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-865667596" onClick='toggleBox("Output-865667596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-865667596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-865667596">
+设置按钮测试：在已登录情况下进入设置页面，点击“意见反馈”按钮，弹出意见反馈输入框，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase7()'><b>testCase7</b><br>Test class: orangelife.ut.person.PersonTest<br/>
+<a href="#Output-262445056" onClick='toggleBox("Output-262445056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-262445056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-262445056">
+个人信息测试：在未登录情况下，进入首页后点击“我的”，而后点击头像，弹出登录提醒框，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase8()'><b>testCase8</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-1912960603" onClick='toggleBox("Output-1912960603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1912960603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1912960603">
+个人信息测试：在已登录情况下，进入首页后点击“我的”，而后点击头像，进入个人信息页面，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+<tr>
+<td title='orangelife.ut.person.PersonTest.testCase9()'><b>testCase9</b><br>Test class: orangelife.ut.person.PersonTest<br>Parameters: 18721102610, 123456<br/>
+<a href="#Output-195984832" onClick='toggleBox("Output-195984832", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-195984832" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-195984832">
+个人信息测试：进入定位页面重新定位后，点击登录，输入登录数据，登录成功，跳转到首页，标签正确为验证方式<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>orangelife.ut.person.PersonTest@3bfdc050</td></tr>
+</table><p>
+</body>
+</html>
